@@ -10,30 +10,17 @@ class Ideone
 		char ch;
 		Scanner sc=new Scanner(System.in);
 		ch=sc.next().charAt(0);
-		if(ch=='a')
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
 		{
 			System.out.println("Vowel");
 		}
-		else if(ch=='e')
+		else if(ch=='!'||ch=='@'||ch=='#'||ch=='$'||ch=='%'||ch=='&'||ch=='*')
 		{
-			System.out.println("Vowel");
+			System.out.println("Invalid");
 		}
-		else if(ch=='i')
-		{
-			System.out.println("Vowel");
-		}
-		else if(ch=='o')
-		{
-			System.out.println("Vowel");
-		}
-		else if(ch=='u')
-		{
-			System.out.println("Vowel");
-		}
-		
-		else
+		 else 
 		{
 			System.out.println("Consonant");
 		}
-	}
+            }	
 }
